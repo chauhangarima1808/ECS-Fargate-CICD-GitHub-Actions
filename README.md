@@ -12,6 +12,10 @@ This project involved setting up an automated containerized application on Amazo
 - Leverage ECS Fargate’s serverless container platform , to eliminate infrastructure management overhead and optimize costs through a pay-per-use pricing model.
 
 ## Architecture
+
+### Target architecture
+![Architecture Diagram](/ecs_fargate_architecture.jpeg "Architecture Diagram")
+
 ### Target technology stack 
 - **Terraform** to provision ECS Fargate tasks in **private subnets**.
 - **VPC Endpoints** (ECR & S3) to keep traffic **within AWS network boundaries**.
@@ -30,9 +34,6 @@ This project involved setting up an automated containerized application on Amazo
 - Deploying worker nodes in auto-scaling groups across private subnets.
 - IAM role assignments to securely manage cluster access.
   
-### Target architecture
-![Architecture Diagram](/ecs_fargate_architecture.jpeg "Architecture Diagram")
-
 ## Key Learnings
 ✔ Leveraging VPC endpoints ensures all data stays within the AWS network — no internet exposure.
 ✔ Blue-Green deployments with CodeDeploy help achieve zero-downtime deployments.
