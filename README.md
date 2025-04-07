@@ -17,7 +17,7 @@ This project involved setting up an automated containerized application on Amazo
     - [SageMaker Model Registry](https://docs.aws.amazon.com/sagemaker/latest/dg/model-registry.html)
 - [Amazon Simple Storage Service (S3)](https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html)
 ### Target architecture
-![Architecture Diagram](/architecture-diagram.png "Architecture Diagram")
+![Architecture Diagram](/ecs_fargate_architecture.jpeg "Architecture Diagram")
 ### Automation and scale
 After registering the trained model to SageMaker Model Registry, you can choose to deploy the model to a SageMaker endpoint for real-time inference. For more information about this, see [Deploy a Model](https://docs.aws.amazon.com/sagemaker/latest/dg/model-registry-deploy.html) from the Registry in the Amazon SageMaker documentation.
 ## Tools
