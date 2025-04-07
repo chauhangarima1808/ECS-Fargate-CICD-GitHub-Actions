@@ -35,12 +35,12 @@ This project involved setting up an automated containerized application on Amazo
 - IAM role assignments to securely manage cluster access.
   
 ## Key Learnings
-✔ Leveraging VPC endpoints ensures all data stays within the AWS network — no internet exposure.
-✔ Blue-Green deployments with CodeDeploy help achieve zero-downtime deployments.
-✔ Using KMS encryption ensures data security at rest and in transit.
-✔ Infrastructure as Code with Terraform makes the whole process repeatable and scalable.
-✔ CloudWatch Container Insights offers real-time monitoring for proactive issue resolution.
-✔ CI/CD integration with GitHub Actions simplifies automation and boosts productivity.
+- Leveraging VPC endpoints ensures all data stays within the AWS network — no internet exposure.<br>
+- Blue-Green deployments with CodeDeploy help achieve zero-downtime deployments.<br>
+- Using KMS encryption ensures data security at rest and in transit.<br>
+- Infrastructure as Code with Terraform makes the whole process repeatable and scalable.<br>
+- CloudWatch Container Insights offers real-time monitoring for proactive issue resolution.<br>
+- CI/CD integration with GitHub Actions simplifies automation and boosts productivity.
 
 ## Conclusion
 This project showcases a robust, secure, and automated approach to deploying containerized applications on Amazon ECS Fargate using Terraform and GitHub Actions. By integrating Blue-Green deployments, VPC interface endpoints, and KMS-based encryption, it achieves high standards of security, availability, and operational excellence.
